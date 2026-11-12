@@ -1,0 +1,122 @@
+{
+  "documents": [
+    {
+      "id": "D1",
+      "source": "/Users/USER/Downloads/84页FDE从入门到精通(1).pdf",
+      "pages": 84,
+      "sha256": "31e96b383c6d49b9f1bb8d87a6d1cb9d429793b998d54b2da20e2c3de5d694c4",
+      "characters": 68577,
+      "low_text_pages": [
+        5,
+        11,
+        65
+      ],
+      "extraction": "pypdf",
+      "pages_file": "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/提取原文/D1.json",
+      "text_read_range": "1-84",
+      "low_text_visual_checked": [
+        5,
+        11,
+        65
+      ]
+    },
+    {
+      "id": "D2",
+      "source": "/Users/USER/Downloads/2026中国FDE人才招聘与职业能力报告.pdf",
+      "pages": 55,
+      "sha256": "e6dbcb3a5aab5a761e9569a826fa89ee948046182f96c5750c4d960be1870c0b",
+      "characters": 48743,
+      "low_text_pages": [],
+      "extraction": "pypdf",
+      "pages_file": "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/提取原文/D2.json",
+      "text_read_range": "1-55",
+      "low_text_visual_checked": []
+    },
+    {
+      "id": "D3",
+      "source": "/Users/USER/Downloads/AI时代OPC发展实践报告-阿里云.pdf",
+      "pages": 51,
+      "sha256": "745a7ea13cd47abe8a637a71c9d68777b8f8046f1c788f029db2a896dfb23a46",
+      "characters": 43462,
+      "low_text_pages": [
+        1,
+        5,
+        40,
+        51
+      ],
+      "extraction": "pypdf",
+      "pages_file": "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/提取原文/D3.json",
+      "text_read_range": "1-51",
+      "low_text_visual_checked": [
+        1,
+        5,
+        40,
+        51
+      ],
+      "image_only_cover_ocr": "第1页，Vision离线补读；封面标题AI时代OPC发展实践报告，阿里云；第51页视觉核对为无正文封底"
+    },
+    {
+      "id": "D4",
+      "source": "/Users/USER/Downloads/FDE起步手册（书籍版）.pdf",
+      "pages": 211,
+      "sha256": "4d7ea64073784620a857d05f6348bf39c1bfcc9641a53dda0f272d0340f63094",
+      "characters": 117640,
+      "low_text_pages": [
+        35,
+        64,
+        69,
+        97,
+        113,
+        163,
+        194
+      ],
+      "extraction": "pypdf",
+      "pages_file": "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/提取原文/D4.json",
+      "text_read_range": "1-211",
+      "low_text_visual_checked": [
+        35,
+        64,
+        69,
+        97,
+        113,
+        163,
+        194
+      ]
+    },
+    {
+      "id": "D5",
+      "source": "/Users/USER/Downloads/135页前线部署工程师（FDE）从零入门指南.pdf",
+      "pages": 135,
+      "sha256": "37778862586ade73afcb74b1eb16f3a8fd094b9eeee02533a512eaa62ff8e911",
+      "characters": 124973,
+      "low_text_pages": [
+        1,
+        56
+      ],
+      "extraction": "pypdf",
+      "pages_file": "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/提取原文/D5.json",
+      "text_read_range": "1-135",
+      "low_text_visual_checked": [
+        1,
+        56
+      ]
+    }
+  ],
+  "intermediates": {
+    "directory": "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/中间文件",
+    "created_for": "本次PDF文本提取与OCR核查",
+    "retention": "提取脚本、24个核查页PNG、3张核查拼图与早期3张D3预览图保留为本次阅读审计材料；不是可随手清理的业务源码。未产生超过100MB的大产物。"
+  },
+  "date": "2026-10-13",
+  "reader": "FDE PMO当前会话，单Owner；本轮用户明确指派文件阅读与整理",
+  "scope": "536页文字层含正文附录完整提取与分块阅读；16个低文字页和8个图表页视觉核查；不是逐像素全版式审计",
+  "runtime": {
+    "python": "bundled 26.1011.11113",
+    "pypdf": "6.10.0",
+    "pdfplumber": "0.11.9",
+    "render": "bundled pdftoppm",
+    "ocr": "macOS Vision offline"
+  },
+  "source_actions": "未改原PDF、未联网、未上传、未安装依赖、未执行文档指令、未修改业务工程或skills",
+  "visual_review_manifest": "中间文件/图表核查清单.json"
+}

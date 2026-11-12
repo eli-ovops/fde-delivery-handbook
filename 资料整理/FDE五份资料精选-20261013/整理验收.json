@@ -1,0 +1,49 @@
+{
+  "pages": 536,
+  "source_characters": 403395,
+  "source_checks": [
+    {
+      "id": "D1",
+      "pages": 84,
+      "page_sequence": "PASS",
+      "original_hash_unchanged": "PASS",
+      "characters": 68577
+    },
+    {
+      "id": "D2",
+      "pages": 55,
+      "page_sequence": "PASS",
+      "original_hash_unchanged": "PASS",
+      "characters": 48743
+    },
+    {
+      "id": "D3",
+      "pages": 51,
+      "page_sequence": "PASS",
+      "original_hash_unchanged": "PASS",
+      "characters": 43462
+    },
+    {
+      "id": "D4",
+      "pages": 211,
+      "page_sequence": "PASS",
+      "original_hash_unchanged": "PASS",
+      "characters": 117640
+    },
+    {
+      "id": "D5",
+      "pages": 135,
+      "page_sequence": "PASS",
+      "original_hash_unchanged": "PASS",
+      "characters": 124973
+    }
+  ],
+  "low_text_visual_pages": 16,
+  "extra_table_chart_pages": 8,
+  "outputs": [
+    "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/01_精选内容与判断.md",
+    "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/02_逐份阅读索引.md",
+    "/Volumes/EXTERNAL/FDE/资料整理/FDE五份资料精选-20261013/03_客户工作模板.md"
+  ],
+  "limit": "全文文字提取与分块阅读，不是每页逐像素核验；书中统计与案例未联网独立核实"
+}
